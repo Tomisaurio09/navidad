@@ -282,18 +282,18 @@ figcaption {
 
 .mini-letter.open .arrow {
   transform: rotate(180deg);
+  
 }
 
 .mini-letter-content {
   max-height: 0;
-  
   overflow: hidden;
   transition: max-height 0.4s ease, opacity 0.3s ease;
   opacity: 0;
 }
 
 .mini-letter-content p {
-  padding: 1.25rem 1.25rem 1.25rem 0;
+  padding: 1.25rem 1.25rem 0;
   color: var(--text-muted);
   line-height: 1.6;
 }
