@@ -76,4 +76,13 @@ window.addEventListener("scroll", () => {
   }
 });
 
+const miniLetters = document.querySelectorAll(".mini-letter-header");
+
+miniLetters.forEach(header => {
+  header.addEventListener("click", () => {
+    const container = header.parentElement;
+    container.classList.toggle("open");
+  });
+});
+
 animatedElements.forEach(el => observer.observe(el));
